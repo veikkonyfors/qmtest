@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import random as rndm
 
 a = [i for  i in range(1, 1001)]
 
@@ -13,7 +14,7 @@ n6 = list()
 
 
 for i in a:
-    r=random.randint(1,6)
+    r=rndm.random.randint(1,6)
     if r==1:
         n1.append(1)
     elif r==2:
