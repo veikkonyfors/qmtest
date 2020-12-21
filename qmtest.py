@@ -14,18 +14,19 @@ n6 = list()
 
 
 for i in a:
-    r=rndm.random.randint(1,6)
-    if r==1:
+    r=rndm.random()
+    r=r*6
+    if r<=1:
         n1.append(1)
-    elif r==2:
+    elif r<=2:
         n2.append(2)
-    elif r==3:
+    elif r<=3:
         n3.append(3)
-    elif r==4:
+    elif r<=4:
         n4.append(4)
-    elif r==5:
+    elif r<=5:
         n5.append(5)
-    elif r==6:
+    elif r<=6:
         n6.append(6)
         
 x = np.array(["1", "2", "3", "4", "5", "6"])
